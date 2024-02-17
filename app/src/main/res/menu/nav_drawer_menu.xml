@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://shemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/update_profile"
+            android:icon="@drawable/baseline_account"
+            android:title="@string/update_profile"/>
+
+        <item
+            android:id="@+id/update_email"
+            android:icon="@drawable/baseline_mail_lock"
+            android:title="@string/update_email"/>
+        <item
+            android:id="@+id/update_password"
+            android:icon="@drawable/baseline_lock_person"
+            android:title="@string/update_password"/>
+        <item
+            android:id="@+id/delete_profile"
+            android:icon="@drawable/baseline_folder_delete"
+            android:title="@string/delete_profile"/>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/baseline_live_help"
+            android:title="@string/help"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_arrow_outward"
+            android:title="@string/logout"/>
+
+    </group>
+</menu>

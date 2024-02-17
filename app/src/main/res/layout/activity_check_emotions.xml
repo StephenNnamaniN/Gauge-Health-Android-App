@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/stetescope1"
+    tools:context=".emotionfile.CheckEmotions">
+
+  <ImageView
+      android:id="@+id/image_view"
+      android:layout_width="match_parent"
+      android:layout_height="400dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginEnd="15dp"
+      android:background="@drawable/image_view_background"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/select_image_btn"
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="center"
+      android:background="@drawable/button_background"
+      android:textColor="@color/white"
+      android:text="@string/select_image_btnText"
+      android:textAllCaps="false"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/capture_image_btn"
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:background="@drawable/button_background"
+      android:textColor="@color/white"
+      android:text="@string/capture_btnText"
+      android:textAllCaps="false"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/predict_btn"
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:background="@drawable/button_background"
+      android:textColor="@color/white"
+      android:text="@string/predict_btnText"
+      android:textAllCaps="false"/>
+
+</LinearLayout>

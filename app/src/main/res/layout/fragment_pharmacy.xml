@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stetescope1"
+    tools:context=".ConditionsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pharmacy_header_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/pharmacy_header"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:textSize="24sp"/>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="380dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/Light_blue" />
+
+        <fragment
+            android:id="@+id/mapView"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/apple_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableStart="@drawable/geo"
+            android:drawableEnd="@drawable/right_arrow9"
+            android:background="@drawable/link_button_background"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:text="@string/walk_to_pharmacy"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:textAllCaps="false"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/fitbit_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableStart="@drawable/vehicle4"
+            android:drawableEnd="@drawable/right_arrow9"
+            android:background="@drawable/link_button_background"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:text="@string/hail_a_ride"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:textAllCaps="false"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

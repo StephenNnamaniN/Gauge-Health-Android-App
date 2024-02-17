@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "492937059563",
+    "firebase_url": "https://gauge-health-default-rtdb.firebaseio.com",
+    "project_id": "gauge-health",
+    "storage_bucket": "gauge-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492937059563:android:4bf3eaa88b4bc0099732ae",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.a0278818.gaugehealth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4gjS13R9Hft9dRL78izyX-jX_76AS-aU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
