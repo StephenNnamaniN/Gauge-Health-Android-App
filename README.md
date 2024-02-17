@@ -1,1 +1,5 @@
 # Gauge-Health-Android-App
+Gauge Health App is a mobile app designed on the Android studio platform using the Java language. The app is targeted to provide solution to the enduring queue in our healthcare facilities by monitoring
+patient remotely. With data acquired through this app clinicians can monitor and provide for the healthcare needs of patients. 
+Gauge Health collects survey data through multiple choice questions that eevaluates patients' welbeing and obtain data to show how they are responding to existing treatment regimen, Through the Gauge Health app the patient can also predict their emotion through their facial expression from pictures captured on their mobile phone. When fully developed vital sign data could also be captured and saved through the app from wearable devices like smart watches, ECG machine and biosensors. The data collected is stored in a realtime database (Firebase was used in this project).
+![Gauge App System](https://github.com/StephenNnamaniN/Gauge-Health-Android-App/assets/100857503/6cfc0a47-bd4f-4207-a9e1-4051821beca9)
